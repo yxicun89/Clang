@@ -70,9 +70,9 @@ void PlusPlus(int s,int p[2],int q[2],int r[2]){
     if(r[0]==p[0]&&r[1]==p[1]){
         printf("finish\n");
         printf("%d\n",fcount+2);
-        } else {
-            PlusPlus(s,x,z,w);
-        }
+    } else {
+        PlusPlus(s,x,z,w);
+    }
 }
 
 void main(void){
